@@ -16,7 +16,6 @@ public class AppTest
         assertEquals(app1.getMessage(), app2.getMessage());
     }
     
-
     @Test
     public void testAppMessage()
     {
