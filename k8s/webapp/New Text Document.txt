@@ -1,0 +1,8 @@
+kubectl create deployment my-app --image=bhargavbhalodiya04/myapp:01
+
+kubectl get deployments
+
+kubectl expose deployment my-app --type=LoadBalancer --port=3000 
+
+minikube service my-app
+
